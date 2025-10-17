@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cdn  -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+
+    <link rel="stylesheet" href="./styles/portfolio.css">
+
+</head>
+
+<body>
+
+    <header class="header-s">
+        <nav class="">
+            <div class="flex  flex-col w-[100%] justify-between items-center text-center md:flex-row md:pl-10 md:items-center  md:text-center md:justify-between md:place-content-around md:w-[60%]">
+                <div class="flex gap-5 pt-5 pb-5 place-content-center items-center  md:gap-3  md:items-center md:text-center">
+
+                    <img src="./Assets/logo.JPG" alt="image of Anup Talukder" width="32px" height="28px"
+                        class="rounded-full ">
+                    <h2 class="nav-title nav-font">Anup Talukder</h2>
+
+                </div>
+
+                <div>
+                    <ul class="flex items-center place-content-around gap-3 pl-3 md:gap-5">
+                        <li class="font-style nav-font text-Black hover:bg-blue-700 hover:rounded-sm"><a
+                                href="index.html" class="ancor">Home</a></li>
+                        <li class="font-style nav-font  hover:bg-blue-700 hover:rounded-sm"><a href="index.html"
+                                class="ancor">About</a></li>
+                        <li class="font-style nav-font  hover:bg-blue-700 hover:rounded-sm"><a href="index.html"
+                                class="ancor">Projects</a></li>
+                        <li class="font-style nav-font hover:bg-blue-700 hover:rounded-sm"><a href="index.html"
+                                class="ancor">Skill</a></li>
+                        <li class="font-style nav-font  hover:bg-blue-700 hover:rounded-sm"><a href="index.html"
+                                class="ancor text-Black-500">Experiences</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+
+
+            <div>
+                <button class="rounded-full pl-2 py-2 hidden md:inline pr-10 "><i class="fa-solid fa-envelope"></i></button>
+            </div>
+        </nav>
+
+
+
+        <div class="banner raleway-font text-center items-center md:px-60 md:pt-5 md:pb-10">
+            <p class="text-2xl mb-4 mt-10"> About me </p>
+            <p class="pb-6 pt-3 text-wrap text-sm md:text-base"> Hello, World! I am Anup Talukder — a Full-stack developer passionate about building
+                scalable,
+                secure, and high-performance systems.With experience across Java, Javascript, CSS, tailwind, react and
+                modern web related technologies, I specialize in designing maintainable architectures, optimizing system
+                performance, and delivering robust solutions that scale seamlessly. Beyond work, I enjoy exploring new
+                technologies, contributing to open-source projects, and refining my skills in software Engineering .
+            </p>
+            <button class="button-s nav-font mt-4 mb-4">My Projects</button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+        <div
+            class="grid grid-cols-1 grid-rows-2  text-center items-center md:grid-cols-2 md:grid-rows-1 md:text-center md:items-center md:gap-40 md:place-content-around">
+            
+            <div class=" items-center text-center pl-10 row-start-2 md:row-start-1 md:col-start-1">
+                <h3 class="raleway-font action-heading">Anup Talukder</h3>
+                <p class="raleway-font text-2xl">Full stack Developer<br><span class="raleway-font text-base">Crafting
+                        clean, performant & responsive web experiences using modern technologies.</span></p>
+                <button class="button-s nav-font mt-6">Get in touch</button>
+            </div>
+
+            <div class="row-start-1 md:row-start-1 md:col-start-2">
+                <img src="./Assets/puja.jpg" alt="Anup's picture" height="80px" width="400px" class="">
+            </div>
+        </div>
+
+        <!-- <div class="wc-big">
+
+            <h3 class="raleway-font productive-heading">Joined Thousands of Productive Users</h3>
+            <ul class="list">
+                <li class="productive-style nav-font">50k</li>
+                <li class="productive-style nav-font">2M+</li>
+                <li class="productive-style nav-font">95%</li>
+            </ul>
+            <ul class="list">
+                <li class="productive-style2 nav-font">Active Users</li>
+                <li class="productive-style2 nav-font">Focus Sessions</li>
+                <li class="productive-style2 nav-font">Satisfaction Rate</li>
+            </ul>
+
+        </div> -->
+
+        <!-- skill cards -->
+
+        <div
+            class="block text-center items-center place-content-around bg-[#E6E6FA] rounded-[24px] mt-30 mb-20 mx-auto">
+           
+            <section>
+                <h4 class="raleway-font text-center mb-6 mt-10 text-4xl ">Technical Expertise</h4>
+                <p class="text-2xl text-center pb-6">A refined selection of my proficiency in modern development tools
+                    and
+                    technologies</p>
+            </section>
+
+            <!-- 14 card start -->
+            <div class="grid grid-cols-3 grid-rows-4 gap-6 mt-6 px-5 md:grid-cols-6 md:grid-rows-2 md:gap-6 md:mt-6 md:px-5">
+
+                <div
+                    class="card bg-white shadow-lg  flex flex-col justify-center items-center hover:bg-[aquamarine]">
+                    <img class="pb-3 pt-3 " src="./Assets/HTML5_logo_and_wordmark.svg" alt="html5 logo" width="50px"
+                        height="50px ">
+                    <div class="card-body">
+                        <p class="text-xl pb-3">HTML5</p>
+                    </div>
+                </div>
+
+
+                <div
+                    class="card bg-white   shadow-lg flex flex-col justify-center items-center hover:bg-[aquamarine]">
+                    <img class="pb-3 pt-3 " src="./Assets/img.icons8.png" alt="css logo" width="50px" height="50px ">
+                    <div class="card-body">
+                        <p class="text-xl pb-3">CSS</p>
+                    </div>
+                </div>
+
+
+
+                <div
+                    class="card bg-white   shadow-lg flex flex-col justify-center items-center hover:bg-[aquamarine]">
+                    <img class="pb-3 pt-3 " src="./Assets/Tailwind_CSS_Logo.svg" alt="tailwind logo" width="50px"
+                        height="50px ">
+                    <div class="card-body">
+                        <p class="text-xl pb-3">tailwind</p>
+                    </div>
+                </div>
+
+
+
+                <div
+                    class="card bg-white   shadow-lg flex flex-col justify-center items-center hover:bg-[aquamarine]">
+                    <img class=" pb-3 pt-3" src="./Assets/javascript.png" alt="javascript logo" width="50px"
+                        height="50px ">
+                    <div class="card-body">
+                        <p class="text-xl pb-3">Javascript</p>
+                    </div>
+                </div>
+
+
+
+
+                <div
+                    class="card bg-white   shadow-lg flex flex-col justify-center items-center hover:bg-[aquamarine]">
+                    <img class=" pb-3 pt-3" src="./Assets/react.jpg" alt="react logo" width="50px" height="50px ">
+                    <div class="card-body">
+                        <p class="text-xl pb-1">react</p>
+                    </div>
+                </div>
+
+
+
+                <div
+                    class="card bg-white   shadow-lg flex flex-col justify-center items-center hover:bg-[aquamarine]">
+                    <img class=" pb-3 pt-3" src="./Assets/mysql.png" alt="MySQL logo" width="50px" height="50px ">
+                    <div class="card-body">
+                        <p class="text-xl pb-3">MySQL</p>
+                    </div>
+                </div>
+
+
+                <!-- </div> -->
+
+
+                <!-- <div class="flex gap-6 mt-6 px-5"> -->
+
+                <div
+                    class="card bg-white  shadow-lg flex flex-col justify-center items-center hover:bg-[aquamarine]">
+                    <img class=" pb-3 pt-3" src="./Assets/C_Logo.png" alt="C logo" width="50px" height="50px ">
+                    <div class="card-body">
+                        <p class="text-xl pb-3">C</p>
+                    </div>
+                </div>
+
+                <div
+                    class="card bg-white shadow-lg flex flex-col justify-center items-center hover:bg-[aquamarine]">
+                    <img class="pb-3 pt-3 " src="./Assets/C++_Logo.svg" alt="C++ logo" width="50px" height="50px ">
+                    <div class="card-body">
+                        <p class="text-xl pb-3">C++</p>
+                    </div>
+                </div>
+
+
+                <div
+                    class="card bg-white   shadow-lg flex flex-col justify-center items-center hover:bg-[aquamarine]">
+                    <img class=" pb-3 pt-3 " src="./Assets/java.png" alt="JAVA logo" width="50px" height="50px ">
+                    <div class="card-body">
+                        <p class="text-xl pb-3">Java</p>
+                    </div>
+                </div>
+
+
+
+                <div
+                    class="card bg-white   shadow-lg flex flex-col justify-center items-center hover:bg-[aquamarine]">
+                    <img class="pb-3  pt-3" src="./Assets/python.jpeg" alt="python logo" width="50px" height="50px ">
+                    <div class="card-body">
+                        <p class="text-xl pb-3">python</p>
+                    </div>
+                </div>
+
+
+
+                <div
+                    class="card bg-white  shadow-lg flex flex-col justify-center items-center hover:bg-[aquamarine]">
+                    <img class="pb-3 pt-3" src="./Assets/Matlab_Logo.png" alt="matlab logo" width="50px" height="50px ">
+                    <div class="card-body">
+                        <p class="text-xl pb-3">MATLAB</p>
+                    </div>
+                </div>
+
+
+
+                <div
+                    class="card bg-white  shadow-lg flex flex-col justify-center items-center hover:bg-[aquamarine]">
+                    <img class=" pb-3 pt-3" src="./Assets/GitHub.png" alt="github logo" width="50px" height="50px ">
+                    <div class="card-body">
+                        <p class="text-xl pb-3">github</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+            <!-- 14 cards end  -->
+
+
+            <p class="text-lg text-center mt-6 pb-4">Constantly refining and expanding my technical skillset</p>
+
+        </div>
+
+
+
+
+        <!--  skill cards end-->
+
+        <!-- project section start  -->
+
+        <div
+            class="block text-center items-center place-content-around bg-[#E6E6FA] rounded-[24px] mt-30 mb-20 mx-auto sm:w-[100%]  ">
+            <section>
+                <h3 class="raleway-font focus-heading"> My Projects </h3>
+                <p class="raleway-font">A collection of innovative projects showcasing technical expertise & creativity.
+                </p>
+
+                <div class="grid grid-cols-1 grid-rows-4  md:grid-cols-2 md:grid-rows-2  gap-4 mb-6 mt-6 px-5  ">
+
+                    <div
+                        class="card  bg-white card-xs rounded-lg shadow-lg border-3 border-gray-200 px-5 py-2 flex flex-col justify-center items-center sm:w-[100%]">
+                        <div class="card-body">
+                            <img src="./Assets/emergency.png" alt="emergency site image" width="100%" height="500"
+                                class="h-50">
+                            <p class="text-2xl pt-3">Emergency Services</p>
+                            <p class="pb-6 pt-6"> this is an emergency service website where any one can call to
+                                emergency number using token/coin. user can see call history ,remove call history and
+                                interact with emergency providers. This is fully responsive website.
+                            </p>
+                            <div class="justify-end card-actions">
+                                <button class="btn  button-s"><a href="https://github.com/AnupTalukder/B12A05"><i
+                                            class="fa-brands fa-square-github bg-gray-900"></i> github </a></button>
+                                <button class="btn button-s"><a href="https://anuptalukder.github.io/B12A05/"
+                                        class="">Live</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div
+                        class="card  bg-white card-xs rounded-lg shadow-lg border-3 border-gray-200 px-5 py-2 flex flex-col justify-center items-center">
+                        <div class="card-body">
+                            <img src="./Assets/flower.png" alt="flower shop website image" width="100%" height="10"
+                                class="border-1 h-50">
+                            <p class="text-2xl pt-3">A Flower Shop </p>
+                            <p class="pb-5 pt-4">This is an online flower shop web-portal .where an user can join or
+                                subscribe , can buy product ,can add product to cart.This is fully responsive website
+                            </p>
+                            <div class="justify-end card-actions">
+                                <button class="btn btn-primary button-s"><a
+                                        href="https://github.com/AnupTalukder/flower_project"><i
+                                            class="fa-brands fa-square-github bg-gray-900"></i> github </a></button>
+                                <button class="btn btn-primary button-s"><a
+                                        href="https://anuptalukder.github.io/flower_project/"> Live </a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+
+
+                    <!-- <div class="flex place-content-around gap-6 pb-6 px-5 sm:grid-cols-1"> -->
+
+                    <div
+                        class="card  bg-white rounded-lg shadow-lg border-3 border-gray-200 px-5 py-2 flex flex-col justify-center items-center">
+                        <div class="card-body">
+                            <img src="./Assets/simple.png" alt="simple responsive site image" width="100%" height="300"
+                                class=" h-50">
+                            <p class="text-2xl pt-3">A simple Responsive Website</p>
+                            <p class="pb-5 pt-4">This is my First Simple Responsive Website. here user can sign up and
+                                log in on this website , can give review about this website and view various things
+                                through the site .</p>
+                            <div class="justify-end card-actions">
+                                <button class="btn btn-primary button-s"><a
+                                        href="https://github.com/AnupTalukder/A12A1"><i
+                                            class="fa-brands fa-square-github bg-gray-900"></i> github </a></button>
+                                <button class="btn btn-primary button-s"><a
+                                        href="https://anuptalukder.github.io/A12A1/"> Live </a></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div
+                        class="card   bg-white card-xs rounded-lg shadow-lg border-3 border-gray-200 px-5 py-2 flex flex-col justify-center items-center">
+                        <div class="card-body">
+                            <img src="./Assets/portfolio.png" alt="portfolio's image" width="100%" height="300"
+                                class="h-50">
+                            <p class="text-2xl pt-3">Portfolio</p>
+                            <p class="pb-4 pt-2 text-wrap">This is my portfolio site. by visiting this site one can know
+                                about me can see my project ,resume and my skill set . also can connect with me through
+                                site and email . one can view my github profile through the link sing in this site .</p>
+                            <div class="justify-end card-actions">
+                                <button class="btn btn-primary button-s"><a href=""><i
+                                            class="fa-brands fa-square-github bg-gray-900"></i> github</a></button>
+                                <button class="btn btn-primary button-s"><a href=""> Live </a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </section>
+
+        </div>
+
+
+
+        <div
+            class="grid grid-cols-1 grid-rows-1 gap-8 text-center md:grid-cols-2 md:grid-rows-1 md:items-center md:text-center md:place-content-around md:gap-20 md:mx-40 md:mt-10">
+            <section class="-font">
+                <h2 class="raleway-font text-4xl md:text-8xl"> Lets Get in <span
+                        class="span-main text-4xl md:text-8xl">Touch</span></h2>
+            </section>
+
+            <section>
+                <form class="mx-10 pd-3 md:pb-3 ">
+
+                    <label for="email" class="f nav-font">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com"
+                        class="input-style border-1">
+                    <label for="name" class="f nav-font">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="full name" class="input-style border-1">
+                    <label for="message" class="f nav-font">Message:</label>
+                    <textarea id="message" name="message" rows="10" cols="30" class="message-style border-1"
+                        placeholder="write your message..."></textarea><br>
+                    <button class="button-s nav-font md:w-96input-style"> Get in touch </button>
+
+                </form>
+
+            </section>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <div
+            class="grid grid-cols-1 grid-rows-2 gap-4 mt-10 pt-5 text-center items-center md:grid-cols-2 md:grid-rows-1 md:place-content-around md:w-[100%] md:h-80 md:items-center">
+            <div class="">
+                <h1 class="nav-font text-2xl text-center">Anup Talukder</h1>
+                <p class="nav-font  text-gray-700 pt-5">Crafting scalable web apps, open-source tools, and innovative
+                    digital
+                    experiences.</p>
+            </div>
+
+            <div
+                class="grid  grid-cols-1 grid-rows-2 text-center items-center  md:grid-cols-2 md:grid-rows-1 md:text-center md:items-center">
+
+                <div>
+                    <ul class="">
+                        <p class="text-2xl"> Quick Link</p>
+                        <li class="font-style nav-font hover:bg-blue-700 hover:rounded-sm"><a href="index.html"
+                                class="ancor">Home</a></li>
+                        <li class="font-style nav-font hover:bg-blue-700 hover:rounded-sm"><a href="index.html"
+                                class="ancor">About</a></li>
+                        <li class="font-style nav-font hover:bg-blue-700 hover:rounded-sm"><a href="index.html"
+                                class="ancor">Projects</a></li>
+                        <li class="font-style nav-font hover:bg-blue-700 hover:rounded-sm"><a href="index.html"
+                                class="ancor">Let's Connect</a></li>
+                        <li class="font-style nav-font hover:bg-blue-700 hover:rounded-sm"><a href="index.html"
+                                class="ancor">Resume</a></li>
+                    </ul>
+
+                </div>
+
+                <div>
+
+                    <p class="text-2xl">Connect</p>
+                    <ul>
+                        <li class="font-style nav-font "><a href="https://www.linkedin.com/in/anup-talukder-2b9275338/"
+                                class="ancor hover:bg-blue-700 hover:text-white"><i class="fa-brands fa-linkedin"></i>
+                                Linkedin</a></li>
+                        <li class="font-style nav-font "><a href="https://github.com/AnupTalukder"
+                                class="ancor hover:bg-blue-700"><i class="fa-brands fa-square-github"></i> github</a>
+                        </li>
+                        <li class="font-style nav-font"><a href="index.html" class="ancor hover:bg-blue-700"><i
+                                    class="fa-brands fa-square-twitter"></i> twitter</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <p class="text-lg text-center text-gray-600 pb-3"> © 2025 Built by Anup Talukder.</p>
+
+    </footer>
+
+</body>
+
+</html>
